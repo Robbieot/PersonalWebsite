@@ -1,0 +1,375 @@
+body{
+    font-family: "SoDo Sans Semibold", sans-serif;
+    background-color: darkgray;
+    margin: 0;
+}
+
+#bg {
+    position: fixed;
+    /* top: -50%; */
+    top: 0;
+    opacity: 75%;
+    /* left: -50%; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(img/pexels-life-of-pix-42408.jpg);
+    z-index: -1000;
+}
+
+.bodytext{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.btnflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 25%;
+  width: 100%;
+}
+
+.btn--download{
+  margin-top: 300px;
+}
+
+#btncont{
+  margin-top: 250px;
+}
+
+.btn--hire{
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid 2px;
+  border-color: #111111;
+}
+
+.btn--mainpage{
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid 2px;
+  border-color: #111111;
+}
+
+.intro{
+    font-size: 4em;
+}
+.homebtn{
+    margin-top: 30px;
+}
+
+#intropara{
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: larger;
+}
+
+.homelist{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 40px;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+.navbar{
+    float: right;
+  }
+
+#srch{
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    width: 600px;    
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.largecontainer{
+  display: flex;
+  height: 100vh;
+  width: 100%;    
+  float: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.para2{
+  float: left;
+  position: relative;
+  margin-right: 400px;
+}
+
+#homecontainer{
+  margin-top: 400px;
+  height: 100vh;
+  width: 100%;    
+  float: center;
+  border-style: solid;
+  border-color: #111111;
+}
+
+#img1{
+  border-radius: 25%;
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  margin-left: 200px;
+}
+
+#behind{
+  display: flex;
+  height: 100vh;
+  width: 100%; 
+  position: absolute;
+  z-index: -1;
+  background-color: grey;
+  opacity: 60%;
+}
+
+#backdrop{
+  display: flex;
+  height: 350px;
+  width: 600px; 
+  position: absolute; 
+  border-radius: 20%;
+  z-index: -1;
+  background-color: gainsboro;
+  opacity: 60%;
+  border: solid;
+  border-color: #111111;
+}
+
+.circlelogo{
+  float: right;
+  margin-left: 400px;
+  position: absolute;
+}
+
+#paraimage{
+  margin-left: 800px;
+  position: absolute;
+  z-index: -1;
+}
+
+#avatar{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.box{
+    height: 95vh;
+    width: 100%;
+    margin: 100px;
+    margin-top: 1px;
+    margin: 2rem 2rem -5rem 2rem;
+}
+
+.btnlabel{
+    border-radius: 16px;
+}
+#search{
+    border-radius: 8px;
+    height: 25px;
+}
+
+.name{
+    float: left;
+    margin-top: 18px;
+    margin-left: 35px;
+    color: white;
+    text-align: center;
+    font-size: large;
+  }
+
+  #homepara1{
+    float: left;
+    text-align: left;
+    font-size: larger;
+    margin: 20px;
+    margin-right: 850px;
+  }
+
+  #homegrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    margin-top: 25%;
+    justify-content: center;
+  }
+
+  #container1{
+    border-radius: 10%;
+    height: 600px;
+    width: 400px;
+    background-color: black;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #container2{
+    border-radius: 10%;
+    height: 600px;
+    width: 400px;
+    background-color: black;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #container3{
+    border-radius: 10%;
+    height: 600px;
+    width: 400px;
+    background-color: black;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+#homegrid2{
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+}
+
+#CVcont{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.btn:hover{
+  background-color: #04AA6D; /* Green */
+  color: white;
+  cursor: pointer;
+  transform: scale(1.15);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.lowertext{
+  color: white;
+}
+
+.btn{
+  background-color: white;
+  color: black;
+  border-radius: 5000px;
+  display: block;
+  margin: 25px;
+  text-transform: uppercase;
+  padding: 25px 30px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.u-bolder{
+  font-weight: 700;
+}
+
+  .connect1{
+    border-top: solid;
+    border-bottom: solid;
+    height: 300px;
+    display: flex;    
+    justify-content: center;
+  }
+
+.title{
+  text-align: center;
+  color: aliceblue;
+  margin: 1rem;
+}
+
+.inside{
+  float: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#insidecontainer{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.hometext{
+  color: aliceblue;
+  text-align: center;
+  margin: 1rem;
+}
+
+  #homeheading1{
+    float: left;
+    text-align: left;
+    font-size: xx-large;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+.description{
+    float: left;
+    color: white;
+    margin-top:43px;
+    margin-left: 35px;
+    text-align: center;
+    position: absolute;
+    font-size: small;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 28px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+.homelogo{
+    float: left;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: -195px;
+    height: 50px;
+    width: 50px;
+  }

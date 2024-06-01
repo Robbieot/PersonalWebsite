@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">   
+    <link href="https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet">
+</head>
+<body>  
+    <div id="bg"></div>
+    <div>
+        <ul class="homelist">
+            <li class="navbar"><a href="#cv">CV</a></li>
+            <li class="navbar"><a href="#projects">Projects</a></li>
+            <li class="navbar"><a href="#work">Work</a></li>
+            <li class="navbar"><a href="contact.html">Contact</a></li>
+            <li class="navbar"><a href="index.html">Home</a></li>
+            <li class="navbar"><form id="srch" onsubmit="event.preventDefault();" role="search">
+                <label class="btnlabel" for="search"></label>
+                <input id="search" type="search" placeholder="  Search" autofocus required />
+              </form>
+            </li>
+            <p class="name">Robbie O'Toole</p>
+            <p class="description">Full-Stack Developer | Video Editor | Graphic Designer</p>
+            <img  class="homelogo" src="img/circlepng.webp" alt="logo">
+        </ul>
+    </div>
+    <div id="CVcont">
+        <div id="btncont">
+            <a href="CV.pdf" download class="btn btn--download">Download <span class="u-bolder">CV</span></a>
+        </div>
+    </div>
